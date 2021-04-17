@@ -1,0 +1,4 @@
+##Date Time Format in Windows CMD##
+
+echo %DATE:~6%%DATE:~-7,2%%DATE:~-10,2%%TIME:~-11,2%%TIME:~-8,2%%TIME:~-5,2%%TIME:~-2,2%
+
